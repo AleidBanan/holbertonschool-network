@@ -1,0 +1,25 @@
+Browser
+  |
+  | 1. DNS lookup: www.google.com → IP address
+  v
+DNS Server
+  |
+  v
+Browser gets Google IP
+  |
+  | 2. HTTPS request to IP on port 443
+  v
+Firewall
+  |
+  | encrypted HTTPS traffic
+  v
+Load Balancer
+  |
+  v
+Web Server
+  |
+  v
+Application Server
+  |
+  v
+Database
